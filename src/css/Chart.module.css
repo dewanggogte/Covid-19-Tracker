@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin: 2rem 0 !important;
+  margin-bottom: 5rem !important;
+}
+
+@media (max-width: 770px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.displayGraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40rem;
+  width: 100%;
+}
+
+.mainGraphHeading {
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 120%;
+  }
+}

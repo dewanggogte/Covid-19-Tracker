@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
+body {
+  background-color: rgba(250, 246, 239, 0.623);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 6rem !important;
+  /* margin-top: 2rem !important; */
+}
+
+.chevron {
+  cursor: pointer;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 2rem !important;
+  }
+}
